@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+#any host has the key can connect to the server
+Host *
+IdentityFile holberton
+PasswordAuthentication no
+PubkeyAuthentication yes
